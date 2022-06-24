@@ -1,0 +1,30 @@
+.navbar{
+    background: linear-gradient(to right, #abebff, #ABC1FF);
+}
+.modal-header {
+    background: linear-gradient(to right, #abebff, #ABC1FF);
+}
+.modal-footer{
+    background: linear-gradient(to right, #abebff, #ABC1FF);
+}
+.button-nav{
+    border-radius: 10px;
+    border: solid 1px #000000;
+    transition: box-shadow 100s;
+    /* hacer una transicion suave del background */
+    text-align: center; 
+}
+.button-nav:hover{
+    background: linear-gradient(to right, #abebff, #ABC1FF);
+    box-shadow: 1px 2px 10px #000000;
+}
+.button-nav:active{
+    background: linear-gradient(to right, #abebff, #ABC1FF);
+    box-shadow: inset 0px 0px 10px #000000;
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+}
+
+
