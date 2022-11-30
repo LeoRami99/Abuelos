@@ -1,5 +1,5 @@
 .navbar{
-    background: linear-gradient(to right, #abebff, #ABC1FF);
+    background: linear-gradient(to right, #7de49c, #8bfa94);
 }
 .modal-header {
     background: linear-gradient(to right, #abebff, #ABC1FF);
@@ -25,6 +25,36 @@
 .modal-body{
     display: flex;
     justify-content: center;
+}
+
+.parallax__container {
+	clip: rect(0, auto, auto, 0);
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -100;
+}
+
+.parallax {
+	position: fixed;
+	top: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	width: 100%;
+
+	/* BG behaviour */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#fondo{
+    backdrop-filter: blur(5px);
+    background-color: rgba(112, 112, 112, 0.5);
 }
 
 
